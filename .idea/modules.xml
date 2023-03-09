@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FirstDemo/FirstDemo.iml" filepath="$PROJECT_DIR$/FirstDemo/FirstDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/camunda.iml" filepath="$PROJECT_DIR$/.idea/camunda.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-camunda/springboot-camunda.iml" filepath="$PROJECT_DIR$/springboot-camunda/springboot-camunda.iml" />
     </modules>
   </component>
 </project>

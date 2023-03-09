@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-camunda" />
         <module name="FirstDemo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="camunda" target="1.8" />
       <module name="FirstDemo" target="1.8" />
+      <module name="springboot-camunda" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
