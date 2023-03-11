@@ -17,8 +17,8 @@ public class FlowController {
     @GetMapping("/deploy")
     public String deplopy(){
         Deployment deploy = repositoryService.createDeployment()
-                .name("部署的第一个流程") // 定义部署文件的名称
-                .addClasspathResource("process.bpmn") // 绑定需要部署的流程文件
+                .name("部署的第二个流程") // 定义部署文件的名称
+                .addClasspathResource("pisTest.bpmn") // 绑定需要部署的流程文件
                 .deploy();// 部署流程
         return deploy.getId() + ":" + deploy.getName();
     }

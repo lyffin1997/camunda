@@ -1,5 +1,6 @@
 package com.lyffin.camunda;
 
+import org.camunda.bpm.engine.IdentityService;
 import org.camunda.bpm.engine.RepositoryService;
 import org.camunda.bpm.engine.RuntimeService;
 import org.camunda.bpm.engine.TaskService;
@@ -9,7 +10,9 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @SpringBootTest(classes = CamundaApplication.class)
 public class ApplicationTest {
@@ -22,6 +25,8 @@ public class ApplicationTest {
 
     @Autowired
     private TaskService taskService;
+    @Autowired
+    private IdentityService identityService;
 
     /**
      * 启动流程的案例
@@ -69,6 +74,37 @@ public class ApplicationTest {
                 .singleResult();
         if(task != null ){
             taskService.complete(task.getId());
+            System.out.println("任务审批完成...");
+        }
+    }
+
+    @Test
+    public void pisTest() {
+        //设置发起人
+        identityService.setAuthenticatedUserId("demo");
+        //启动流程
+        Map<String, Object> map = new HashMap<>(2);
+        map.put("person1", "yijishenhe");
+        map.put("person2", "erjishenhe");
+        map.put("person3", "sanjishenhe");
+        ProcessInstance processInstance = runtimeService
+                .startProcessInstanceById("Process_0jazxmo:1:e7df02fa-bff8-11ed-959f-12d27215e58d", map);
+    }
+
+    /**
+     * 完成任务
+     */
+    @Test
+    public void pisTest2(){
+        // 根据用户找到关联的Task
+        Task task = taskService.createTaskQuery()
+                //.processInstanceId("eff78817-2e58-11ed-aa3f-c03c59ad2248")
+                .taskAssignee("yijishenhe")
+                .singleResult();
+        if(task != null ){
+            Map<String, Object> map = new HashMap<>(2);
+            map.put("approved1", false);
+            taskService.complete(task.getId(), map);
             System.out.println("任务审批完成...");
         }
     }

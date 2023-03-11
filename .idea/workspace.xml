@@ -20,15 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b596f2ee-828a-443f-a0d6-859a4376ebe9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-camunda/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-camunda/src/main/java/com/lyffin/camunda/CamundaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-camunda/src/main/java/com/lyffin/camunda/controller/FlowController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-camunda/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-camunda/src/main/resources/process.bpmn" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-camunda/src/test/java/com/lyffin/camunda/ApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstDemo/src/main/java/com/lyffin/camunda/ChargeCardWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/FirstDemo/src/main/java/com/lyffin/camunda/ChargeCardWorker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstDemo/target/classes/com/lyffin/camunda/ChargeCardWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/FirstDemo/target/classes/com/lyffin/camunda/ChargeCardWorker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-camunda/src/main/java/com/lyffin/camunda/controller/FlowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-camunda/src/main/java/com/lyffin/camunda/controller/FlowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-camunda/src/test/java/com/lyffin/camunda/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-camunda/src/test/java/com/lyffin/camunda/ApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-camunda/target/classes/com/lyffin/camunda/controller/FlowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-camunda/target/classes/com/lyffin/camunda/controller/FlowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-camunda/target/test-classes/com/lyffin/camunda/ApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-camunda/target/test-classes/com/lyffin/camunda/ApplicationTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,20 +70,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.ApplicationTest.completeTask">
-    <configuration name="ChargeCardWorker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.lyffin.camunda.ChargeCardWorker" />
-      <module name="FirstDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyffin.camunda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ApplicationTest.pisTest2">
     <configuration name="ApplicationTest.completeTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-camunda" />
       <extension name="coverage">
@@ -100,6 +82,38 @@
       <option name="PACKAGE_NAME" value="com.lyffin.camunda" />
       <option name="MAIN_CLASS_NAME" value="com.lyffin.camunda.ApplicationTest" />
       <option name="METHOD_NAME" value="completeTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTest.pisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-camunda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyffin.camunda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyffin.camunda" />
+      <option name="MAIN_CLASS_NAME" value="com.lyffin.camunda.ApplicationTest" />
+      <option name="METHOD_NAME" value="pisTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationTest.pisTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-camunda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lyffin.camunda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lyffin.camunda" />
+      <option name="MAIN_CLASS_NAME" value="com.lyffin.camunda.ApplicationTest" />
+      <option name="METHOD_NAME" value="pisTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,22 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ApplicationTest.startFlow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-camunda" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lyffin.camunda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.lyffin.camunda" />
-      <option name="MAIN_CLASS_NAME" value="com.lyffin.camunda.ApplicationTest" />
-      <option name="METHOD_NAME" value="startFlow" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CamundaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot-camunda" />
       <extension name="coverage">
@@ -152,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApplicationTest.pisTest2" />
+        <item itemvalue="JUnit.ApplicationTest.pisTest" />
+        <item itemvalue="Spring Boot.CamundaApplication" />
         <item itemvalue="JUnit.ApplicationTest.completeTask" />
         <item itemvalue="JUnit.ApplicationTest.queryTask" />
-        <item itemvalue="JUnit.ApplicationTest.startFlow" />
-        <item itemvalue="Spring Boot.CamundaApplication" />
-        <item itemvalue="Application.ChargeCardWorker" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +172,10 @@
       <workItem from="1678330529725" duration="5163000" />
       <workItem from="1678378124246" duration="535000" />
       <workItem from="1678378760942" duration="3374000" />
+      <workItem from="1678382766928" duration="334000" />
+      <workItem from="1678383140308" duration="135000" />
+      <workItem from="1678383346013" duration="81000" />
+      <workItem from="1678527205733" duration="5424000" />
     </task>
     <servers />
   </component>
@@ -201,49 +203,64 @@
       <screen x="0" y="25" width="1440" height="804" />
     </state>
     <state x="487" y="258" key="#com.intellij.tools.ToolEditorDialog/0.25.1440.804@0.25.1440.804" timestamp="1678375422514" />
-    <state width="1398" height="282" key="GridCell.Tab.0.bottom" timestamp="1678382216421">
+    <state width="1398" height="401" key="GridCell.Tab.0.bottom" timestamp="1678534483380">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
-    <state width="1398" height="282" key="GridCell.Tab.0.bottom/0.25.1440.804@0.25.1440.804" timestamp="1678382216421" />
-    <state width="1398" height="282" key="GridCell.Tab.0.center" timestamp="1678382216420">
+    <state width="1398" height="401" key="GridCell.Tab.0.bottom/0.25.1440.804@0.25.1440.804" timestamp="1678534483380" />
+    <state width="1398" height="401" key="GridCell.Tab.0.center" timestamp="1678534483379">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
-    <state width="1398" height="282" key="GridCell.Tab.0.center/0.25.1440.804@0.25.1440.804" timestamp="1678382216420" />
-    <state width="1398" height="282" key="GridCell.Tab.0.left" timestamp="1678382216420">
+    <state width="1398" height="401" key="GridCell.Tab.0.center/0.25.1440.804@0.25.1440.804" timestamp="1678534483379" />
+    <state width="1398" height="401" key="GridCell.Tab.0.left" timestamp="1678534483378">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
-    <state width="1398" height="282" key="GridCell.Tab.0.left/0.25.1440.804@0.25.1440.804" timestamp="1678382216420" />
-    <state width="1398" height="282" key="GridCell.Tab.0.right" timestamp="1678382216420">
+    <state width="1398" height="401" key="GridCell.Tab.0.left/0.25.1440.804@0.25.1440.804" timestamp="1678534483378" />
+    <state width="1398" height="401" key="GridCell.Tab.0.right" timestamp="1678534483379">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
-    <state width="1398" height="282" key="GridCell.Tab.0.right/0.25.1440.804@0.25.1440.804" timestamp="1678382216420" />
-    <state width="1398" height="166" key="GridCell.Tab.1.bottom" timestamp="1678380980244">
+    <state width="1398" height="401" key="GridCell.Tab.0.right/0.25.1440.804@0.25.1440.804" timestamp="1678534483379" />
+    <state width="1398" height="401" key="GridCell.Tab.1.bottom" timestamp="1678534483183">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
-    <state width="1398" height="166" key="GridCell.Tab.1.bottom/0.25.1440.804@0.25.1440.804" timestamp="1678380980244" />
-    <state width="1398" height="166" key="GridCell.Tab.1.center" timestamp="1678380980243">
+    <state width="1398" height="401" key="GridCell.Tab.1.bottom/0.25.1440.804@0.25.1440.804" timestamp="1678534483183" />
+    <state width="1398" height="401" key="GridCell.Tab.1.center" timestamp="1678534483182">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
-    <state width="1398" height="166" key="GridCell.Tab.1.center/0.25.1440.804@0.25.1440.804" timestamp="1678380980243" />
-    <state width="1398" height="166" key="GridCell.Tab.1.left" timestamp="1678380980243">
+    <state width="1398" height="401" key="GridCell.Tab.1.center/0.25.1440.804@0.25.1440.804" timestamp="1678534483182" />
+    <state width="1398" height="401" key="GridCell.Tab.1.left" timestamp="1678534483182">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
-    <state width="1398" height="166" key="GridCell.Tab.1.left/0.25.1440.804@0.25.1440.804" timestamp="1678380980243" />
-    <state width="1398" height="166" key="GridCell.Tab.1.right" timestamp="1678380980244">
+    <state width="1398" height="401" key="GridCell.Tab.1.left/0.25.1440.804@0.25.1440.804" timestamp="1678534483182" />
+    <state width="1398" height="401" key="GridCell.Tab.1.right" timestamp="1678534483183">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
-    <state width="1398" height="166" key="GridCell.Tab.1.right/0.25.1440.804@0.25.1440.804" timestamp="1678380980244" />
+    <state width="1398" height="401" key="GridCell.Tab.1.right/0.25.1440.804@0.25.1440.804" timestamp="1678534483183" />
     <state x="229" y="60" key="SettingsEditor" timestamp="1678382749116">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
     <state x="229" y="60" key="SettingsEditor/0.25.1440.804@0.25.1440.804" timestamp="1678382749116" />
-    <state x="420" y="167" width="599" height="514" key="find.popup" timestamp="1678289166636">
+    <state x="264" y="157" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1678534315444">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
-    <state x="420" y="167" width="599" height="514" key="find.popup/0.25.1440.804@0.25.1440.804" timestamp="1678289166636" />
+    <state x="264" y="157" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1440.804@0.25.1440.804" timestamp="1678534315444" />
+    <state x="420" y="167" width="599" height="514" key="find.popup" timestamp="1678528687223">
+      <screen x="0" y="25" width="1440" height="804" />
+    </state>
+    <state x="420" y="167" width="599" height="514" key="find.popup/0.25.1440.804@0.25.1440.804" timestamp="1678528687223" />
     <state x="126" y="84" key="new project wizard" timestamp="1678377251895">
       <screen x="0" y="25" width="1440" height="804" />
     </state>
     <state x="126" y="84" key="new project wizard/0.25.1440.804@0.25.1440.804" timestamp="1678377251895" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-camunda/src/test/java/com/lyffin/camunda/ApplicationTest.java</url>
+          <line>108</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
